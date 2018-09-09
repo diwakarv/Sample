@@ -1,0 +1,78 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Login as a authenticated user",
+        "description": "",
+        "id": "login-feature;login-as-a-authenticated-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15885661982,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on homepage",
+            "match": {
+              "location": "Test.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3637636820,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user navigates to Login Page",
+            "match": {
+              "location": "Test.user_navigates_to_Login_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9879566166,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters username and Password",
+            "match": {
+              "location": "Test.user_enters_username_and_Password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1179769511,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "success message is displayed",
+            "match": {
+              "location": "Test.success_message_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "Register as user in site",
+        "description": "",
+        "id": "login-feature;register-as-user-in-site",
+        "type": "scenario",
+        "keyword": "Scenario"
+      }
+    ],
+    "name": "Login Feature",
+    "description": "Verify if user is able to Login in to the site",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "src/test/java/feature/test.feature"
+  }
+]
